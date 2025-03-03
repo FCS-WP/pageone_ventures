@@ -1,0 +1,87 @@
+.zippy_search_custom{
+    .e-search-form{
+        border: 1px solid #DDD !important;
+        input{
+            min-height: 50px;
+            padding: 0px;
+            border: none;
+            height: 50px;
+            width: 300px;
+        }
+        button{
+            background-color: #fff !important;
+            height: 50px;
+            width: 50px;
+            padding: 0px;
+            svg{
+                fill: #000 !important;
+            }
+        }
+    }
+}
+
+@media(min-width: 1024px){
+    .loop_product_col_3{
+        .products.columns-4{
+            display: flex !important;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li{
+                width: 31% !important;
+                border: 1px solid #D3D3D3 !important;
+                .onsale{
+                    border-radius: 0;
+                    background: #30C983;
+                    margin: 0px;
+                    left: 0px !important;
+                    right: auto !important;
+                    font-family: "Titillium Web", Sans-serif;
+                    font-size: 13px;
+    
+                }
+    
+                .add_to_cart_button{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    
+}
+
+.sidebar_shop_custom{
+    .elementor-widget-container{
+        li{
+            list-style: none;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.relate_loop_product{
+    .onsale{
+        border-radius: 0 !important;
+        background: #30C983 !important;
+        margin: 0px !important;
+        left: 0px !important;
+        right: auto !important;
+        font-family: "Titillium Web", Sans-serif !important;
+        font-size: 13px !important;
+
+    }
+
+    .add_to_cart_button{
+        margin-bottom: 20px;
+    }
+}
+
+.onsale{
+    border-radius: 0 !important;
+    background: #30C983 !important;
+    margin: 0px !important;
+    left: 0px !important;
+    right: auto !important;
+    font-family: "Titillium Web", Sans-serif !important;
+    font-size: 13px !important;
+
+}
